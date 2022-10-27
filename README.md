@@ -1,2 +1,2 @@
-# zuritraining
+# assignments
 simple portfolio
