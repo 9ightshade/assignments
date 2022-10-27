@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 3 Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+   
+    <div class="register-box">
+    
+           
+        
+        <h1>
+            Registration Form
+        </h1>
+        <form action="#" method="post">
+            <label for="#">First Name:*</label>
+            <input type="text" name="firstname" required>
+            <label for="">Last Name:*</label>
+            <input type="text" name="lastname">
+            <label for="">Phone Number:*</label>
+            <input type="number" name="phonenumber" pattern="[0-9](3)-[0-9](6)-[0-9](3)" required>
+            <label for="">Email</label>
+            <input type="email" name="email" placeholder="Enter your email">
+            <label for="">Gender</label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            <label>Date of Birth</label>
+            <input type="date" name="dateofbirth">
+            <label for="">Favourite Color</label>
+            <input type="color" name="favcolor">
+            <a href="success.html">
+                <input type="submit" value="Submit" class="submit-button">
+            </a>
+
+        </form>
+        <p class="para-1">
+            By clicking Submit, you agree to our<br>
+            <a href="#">Terms and Conditions </a> and <a href="#">Privacy Policy.</a>
+        </p>
+        
+    </div>
+
+<p class="para-2">Already have an account?<a href="login-page.html">Login here</a></p>
+</body>
+
+</html>
